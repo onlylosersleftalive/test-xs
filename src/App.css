@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Avenir Heavy";
+  src: url("./font/avenir_ff/AvenirLTStd-Black.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Avenir Normal";
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 5% 5%;
+  overflow-x: hidden;
+}
+
+
+.app>.title {
+  font-family: "Avenir Heavy";
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 1150px) {
+  .app {
+    padding: 10% 10%;
+  }
+}
