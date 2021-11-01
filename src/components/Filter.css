@@ -4,7 +4,7 @@
 }
 
 .filters {
-    height: 12vh;
+    /* height: 12vh; */
     font-family: "Avenir Normal";
     font-size: 1.5rem;
     margin-bottom: 2.5rem;
@@ -58,10 +58,10 @@ i {
     font-size: 1.25rem;
 }
 
-.checkbox {
+/* .checkbox {
     display: flex;
     align-items: center;
-}
+} */
 
 .checkbox p {
     margin-left: 1.25rem;

@@ -55,10 +55,10 @@ const Filter = (props) => {
           </span>
         </div>
       </div>
-      <div className="checkbox">
+      {/* <div className="checkbox">
         <input type="checkbox" />
         <p>Liked</p>
-      </div>
+      </div> */}
     </div>
   );
 };
