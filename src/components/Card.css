@@ -11,7 +11,6 @@
 .card {
     width: 37.5rem;
     height: 25rem;
-    background-image: url("../icons/Rectangle\ 3.1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -87,7 +86,17 @@
 
 @media (max-width: 400px) {
     .card {
-        width: 15rem;
+        width: 17rem;
         height: 15rem;
     }
+
+    .date {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .info {
+        font-size: 1.5rem;
+    }
+
 }
